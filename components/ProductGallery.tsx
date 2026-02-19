@@ -1,5 +1,7 @@
 
 import React from 'react';
+import img1 from '../src/assets/1.jpeg';
+import img2 from '../src/assets/2.jpeg';
 
 const ProductGallery: React.FC = () => {
   return (
@@ -20,8 +22,8 @@ const ProductGallery: React.FC = () => {
         <div className="mb-48 group">
           <div className="relative overflow-hidden bg-black/40 border border-white/5 mb-10 shadow-2xl">
             <img 
-              src="./components/Images/2.jpeg" 
-              alt="Collection RecordsLens Iris Row" 
+              src={img2}
+              alt="Collection RecordsLens Iris Row"
               className="w-full h-auto object-cover transition-transform duration-[3000ms] group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
@@ -53,8 +55,8 @@ const ProductGallery: React.FC = () => {
             <div className="absolute inset-0 border border-[#00337c]/20 z-10 pointer-events-none"></div>
             <div className="aspect-[4/5] bg-[#0a0a0a] overflow-hidden shadow-2xl">
               <img 
-                src="./components/Images/1.jpeg" 
-                alt="RecordsLens Duo Azure" 
+                src={img1}
+                alt="RecordsLens Duo Azure"
                 className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110"
               />
             </div>
