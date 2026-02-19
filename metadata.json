@@ -1,0 +1,7 @@
+{
+  "name": "RecordsLens - The Future of Vision",
+  "description": "A luxury tech landing page for smart contact lenses that record and translate in real-time. Mixing Meta's innovation with Cartier's elegance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

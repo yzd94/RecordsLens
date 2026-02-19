@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecordsLens | Camera, Action, Vision Ouloulouuu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy-blue: #001a3d;
+            --navy-glow: rgba(0, 26, 61, 0.4);
+            --luxury-gold: #d4af37;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #030303;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, .luxury-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .navy-gradient {
+            background: linear-gradient(135deg, #001a3d 0%, #00337c 100%);
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #d4af37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .navy-glow {
+            box-shadow: 0 0 50px rgba(0, 51, 124, 0.2);
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        @keyframes subtle-pulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 0.9; }
+        }
+        .animate-subtle {
+            animation: subtle-pulse 5s ease-in-out infinite;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.42.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
