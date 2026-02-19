@@ -21,7 +21,7 @@ const ProductGallery: React.FC = () => {
         <div className="mb-48 group">
           <div className="relative overflow-hidden bg-black/40 border border-white/5 mb-10 shadow-2xl">
             <img 
-              src="/2.png"
+              src="./images/2.png"
               alt="Collection RecordsLens Iris Row"
               className="w-full h-auto object-cover transition-transform duration-[3000ms] group-hover:scale-105"
             />
@@ -54,7 +54,7 @@ const ProductGallery: React.FC = () => {
             <div className="absolute inset-0 border border-[#00337c]/20 z-10 pointer-events-none"></div>
             <div className="aspect-[4/5] bg-[#0a0a0a] overflow-hidden shadow-2xl">
               <img 
-                src="/1.png"
+                src="./images/1.png"
                 alt="RecordsLens Duo Azure"
                 className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110"
               />
