@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/recordslens---the-future-of-vision/', // ⚠️ mets ici le nom EXACT de ton repo
+      base: '/RecordsLens/', // ⚠️ mets ici le nom EXACT de ton repo
 
       server: {
         port: 3000,
